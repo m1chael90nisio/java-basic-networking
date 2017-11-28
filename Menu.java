@@ -19,24 +19,24 @@ class Menu{
 			System.out.println("Ping an adress");
 			PingIP pingip=new PingIP();			
 			pingip.sendPingRequest();
-				// Perform "original number" case.
+				// Perform "ping an adress" case.
 				
 				break;
 			case 2:
 			System.out.println("what's my IP??");
 			GetIP getIp=new GetIP();
 			getIp.myIp();
-				// Perform "encrypt number" case.
+				// Perform "get my ip" case.
 				break;
 			case 3:
 			System.out.println("what's my public IP");
 			SystemIPAddress sysIP=new SystemIPAddress();
 			sysIP.systemipaddress();
-				// Perform "decrypt number" case.
+				// Perform "systemip adress(public ip)" case.
 				break;
 			case 4:
 			System.out.println("Connect to a pc using telnet!");
-				// Perform "quit" case.
+				// Perform "telnet" case.
 				break;
 			default:
 			
